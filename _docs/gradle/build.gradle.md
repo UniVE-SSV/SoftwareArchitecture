@@ -113,8 +113,8 @@ This block configures test tasks. This task is specific to Java-related plugins.
 
 Our tasks.test block says that for our project we are going to use JUnit for testing. What is JUnit? We will answer this question in the next lesson.
 <div>
-Previous: <a href="/gradle/introduction">Gradle - Introduction</a>
+Previous: <a href="/SoftwareArcitectures/gradle/introduction">Gradle - Introduction</a>
 </div>
 <div>
-Next: <a href="/gradle/testing-java-applications">Gradle - Testing Java Applications</a>  
+Next: <a href="/SoftwareArcitectures/gradle/testing-java-applications">Gradle - Testing Java Applications</a>  
 </div>
