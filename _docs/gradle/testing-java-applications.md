@@ -218,4 +218,10 @@ class QuickSort {
     }
 }
 {% endhighlight %}
-Create a Main class that uses the method "sort", and write a build.gradle file for the project. Write also some tests. 
+Create a Main class that uses the method "sort", and write a build.gradle file for the project. Write also some tests.  
+<div>
+Previous: <a href="/gradle/build.gradle">Gradle - build.gradle</a>
+</div>
+<div>
+Next: <a href="/gradle/example-log4j">Gradle - Example: log4j</a>  
+</div>

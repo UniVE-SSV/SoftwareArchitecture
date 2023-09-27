@@ -241,4 +241,10 @@ CMD ["sleep", "3600"]
 And run a container from it. Then, open the container's terminal and print out the content of the environment variable TEST_ENV_VAR:
 ![Docker images]({{ site.baseurl }}/images/docker_cli_5.png)
 ## Exercises
-1. Create a **Dockerfile** that prints "installing!" when it is installed and prints "running!" each time it is launched.
+1. Create a **Dockerfile** that prints "installing!" when it is installed and prints "running!" each time it is launched.  
+<div>
+Previous: <a href="/docker/getting-started">Docker - Getting Started</a>
+</div>
+<div>
+Next: <a href="/docker/volumes">Docker - Volumes</a>  
+</div>
