@@ -220,8 +220,8 @@ class QuickSort {
 {% endhighlight %}
 Create a Main class that uses the method "sort", and write a build.gradle file for the project. Write also some tests.  
 <div>
-Previous: <a href="/SoftwareArcitecture/gradle/build.gradle">Gradle - build.gradle</a>
+Previous: <a href="/SoftwareArchitecture/gradle/build.gradle">Gradle - build.gradle</a>
 </div>
 <div>
-Next: <a href="/SoftwareArcitecture/gradle/example-log4j">Gradle - Example: log4j</a>  
+Next: <a href="/SoftwareArchitecture/gradle/example-log4j">Gradle - Example: log4j</a>  
 </div>
