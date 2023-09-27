@@ -6,6 +6,7 @@ order: 1
 <h2>Contents</h2>
 * toc
 {:toc}
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/JCCOMnGtjrY?si=63LBNhAWYYIS6fsJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ## What is Gradle
 Gradle is an open-source build automation tool, that is, a tool that permits developers to automatize tasks like, for example, test execution, code compiling, deployment, and generation of documentation.
 It is the most popular build system for the Java Virtual Machine (JVM) and the default for Android.
