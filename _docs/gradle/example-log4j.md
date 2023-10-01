@@ -7,10 +7,10 @@ order: 4
 * toc
 {:toc}
 
-Here, we will see an example of how we can add a dependency to our Gradle project. For this purpose, we will present a Java logging library, <a href="https://logging.apache.org/log4j/2.x/">Log4j</a>.
+Here, we will see an example of how we can add a dependency to our Gradle project. For this purpose, we will present a Java logging library, <a target="_blank" rel="noopener noreferrer" href="https://logging.apache.org/log4j/2.x/">Log4j</a>.
 ## Logging
 When you write software, it is useful to introduce logs. Logs can help, for example, to record the execution of events in your application, to identify and understand the pattern of activities, and to identify the source of problems in case of software incidents.  
-Log4j is a library that enhances the main logging mechanism of Java. To use Log4J in a Java Gradle project, we follow what the <a href="https://logging.apache.org/log4j/2.x/maven-artifacts.html">documentation</a> says and we add the dependencies. Our build.gradle file should look like this:
+Log4j is a library that enhances the main logging mechanism of Java. To use Log4J in a Java Gradle project, we follow what the <a target="_blank" rel="noopener noreferrer" href="https://logging.apache.org/log4j/2.x/maven-artifacts.html">documentation</a> says and we add the dependencies. Our build.gradle file should look like this:
 {% highlight kotlin %}
 plugins {
     id("application")
@@ -80,7 +80,7 @@ However, nothing is printed out in the console. This is because we need to confi
     </Loggers>
 </Configuration>
 {% endhighlight %}
-<a href="https://logging.apache.org/log4j/2.x/manual/configuration.html">Here</a> you can find additional information. Our configuration file tells log4j to log file in the console and in a file in folder /logs/log.log. Check it out!  
+<a target="_blank" rel="noopener noreferrer" href="https://logging.apache.org/log4j/2.x/manual/configuration.html">Here</a> you can find additional information. Our configuration file tells log4j to log file in the console and in a file in folder /logs/log.log. Check it out!  
 
 ## Log level
 You can classify logs based on their importance. You can do this by using the log level. A high log level means that the logged information is more important than a lower one and requires particular attention. Usually, a high level reports fatal errors and errors in general. Here are what log level log4j offers (ordered by importance):
@@ -135,7 +135,7 @@ BUILD SUCCESSFUL in 1s
 {% endhighlight %}
 
 ## Exercises
-1. Define a class Student that has a name, a surname,  a matriculation number, and a list of passed Courses. Then, write a test function that creates a Student and adds some courses to its list. Log the created Student in a log entry in JSON format using the <a href="https://github.com/google/gson">gson</a> library and log4j.
+1. Define a class Student that has a name, a surname,  a matriculation number, and a list of passed Courses. Then, write a test function that creates a Student and adds some courses to its list. Log the created Student in a log entry in JSON format using the <a target="_blank" rel="noopener noreferrer" href="https://github.com/google/gson">gson</a> library and log4j.
 <div>
 Previous: <a href="/SoftwareArchitecture/gradle/testing-java-applications">Gradle - Testing Java Application</a>
 </div>

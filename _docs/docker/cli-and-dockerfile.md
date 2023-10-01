@@ -118,7 +118,7 @@ docker/getting-started   latest    3e4394f6b72f   8 months ago   47MB
 ### Download an image from the Docker Hub
 What about downloading an image? Just type <b>docker pull *&lt;name-of-image:tag&gt;*</b> (example: **docker pull nodejs:latest**).  
 Tag permits you to specify which version of the Docker image you want to use. If you don't specify a tag, the latest available image will be pulled.
-You can see all the available tags for an image directly from the Docker Hub (for example, for node: <a href="https://hub.docker.com/_/node/tags">hub.docker.com/_/node/tags</a>).
+You can see all the available tags for an image directly from the Docker Hub (for example, for node: <a target="_blank" rel="noopener noreferrer" href="https://hub.docker.com/_/node/tags">hub.docker.com/_/node/tags</a>).
 {% highlight bash %}
 ~/Projects/sw-arch/docker docker pull node:latest
 latest: Pulling from library/node
@@ -182,7 +182,7 @@ You can also create and start a container in a single step, by using docker run:
 ### Build an image
 We can use the docker build command to build an image. We will explain this command in the next section.
 ### Other commands
-An exhaustive list of all the Docker CLI commands can be found <a href="https://docs.docker.com/engine/reference/commandline/cli/">here</a>..
+An exhaustive list of all the Docker CLI commands can be found <a target="_blank" rel="noopener noreferrer" href="https://docs.docker.com/engine/reference/commandline/cli/">here</a>..
 ## The Dockerfile
 But how we can create an image from scratch? In Docker exists a special file, called Dockerfile, that permits the definition of an image in a script way. Let's see how it works.
 The first step involves creating a new text file named Dockerfile, without extension. In this file, we are going to describe all the step-by-step commands that the Docker Engine needs to run to assemble a Docker image.  
@@ -221,10 +221,10 @@ Create and run a container for our image:
 docker run -d -p 3200:3000 simple-node-app
 {% endhighlight %}
 With the flag -d we are going to tell Docker to run the container in detached mode, while with -p we can specify the port mapping: in our case, we are mapping the 3200 port of our host to port 3000 of the container.
-The application is then avaiable at <a href="localhost:3200">localhost:3200</a>:
+The application is then avaiable at <a target="_blank" rel="noopener noreferrer" href="localhost:3200">localhost:3200</a>:
 ![Docker images]({{ site.baseurl }}/images/docker_cli_4.png)
 ### Other Dockerfile commands
-Here we see briefly two other important Dockerfile commands: a complete list can be found <a href="https://docs.docker.com/engine/reference/builder/">here</a>.
+Here we see briefly two other important Dockerfile commands: a complete list can be found <a target="_blank" rel="noopener noreferrer" href="https://docs.docker.com/engine/reference/builder/">here</a>.
 1. **EXPOSE**: informs Docker that the container listens on specified network ports at runtime, and permits to specify also if the port listens on TCP or UDP protocol (default TCP if the protocol is omitted). For example:  
 {% highlight bash %}
 EXPOSE 80/udp

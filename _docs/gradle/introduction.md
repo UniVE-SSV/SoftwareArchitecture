@@ -14,13 +14,13 @@ The peculiarity of Gradle is that it provides its own high-level and declarative
 
 ## Installation
 You can install gradle in many different ways:
-1. Installing <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a>: Gradle will be installed by default (**Recommended**).
-2. Installing the <a href="https://code.visualstudio.com/docs/java/java-build">Java Extension Pack</a> for <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
-3. <a href="https://gradle.org/install/">Manual installation</a> (just follow the documentation).  
+1. Installing <a target="_blank" rel="noopener noreferrer" href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a>: Gradle will be installed by default (**Recommended**).
+2. Installing the <a target="_blank" rel="noopener noreferrer" href="https://code.visualstudio.com/docs/jav<a target="_blank" rel="noopener noreferrer" href="ild">Java Extension Pack</a> for <a target="_blank" rel="noopener noreferrer" href="https://code.visualstudio.com/">Visual Studio Code</a>.
+3. <a target="_blank" rel="noopener noreferrer" href="https://gradle.org/install/">Manual installation</a> (just follow the documentation).  
 
 For this course, we will use Gradle with IntelliJ IDEA.
 
-**NOTE**: Two versions of IntelliJ IDEA exist: Community Edition, which is free, and Ultimate, which is not. The Ultimate version has the support for Spring (that we will see in the next lessons). However, you can obtain a free Student License to use IntelliJ Ultimate (see <a href="https://www.jetbrains.com/community/education/#students"> here </a>).
+**NOTE**: Two versions of IntelliJ IDEA exist: Community Edition, which is free, and Ultimate, which is not. The Ultimate version has the support for Spring (that we will see in the next lessons). However, you can obtain a free Student License to use IntelliJ Ultimate (see <a target="_blank" rel="noopener noreferrer" href="https://www.jetbrains.com/community/education/#students"> here </a>).
 
 ## Gradle in Action
 To see Gradle in action create a new Project with IntelliJ IDEA and choose Gradle as Build System. Set the other parameters as follows:
