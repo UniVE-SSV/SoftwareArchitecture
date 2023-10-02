@@ -20,7 +20,7 @@ You can install gradle in many different ways:
 
 For this course, we will use Gradle with IntelliJ IDEA.
 
-**NOTE**: Two versions of IntelliJ IDEA exist: Community Edition, which is free, and Ultimate, which is not. The Ultimate version has the support for Spring (that we will see in the next lessons). However, you can obtain a free Student License to use IntelliJ Ultimate (see <a target="_blank" rel="noopener noreferrer" href="https://www.jetbrains.com/community/education/#students"> here </a>).
+**NOTE**: Two versions of IntelliJ IDEA exist: Community Edition, which is free, and Ultimate, which is not. The Ultimate version has the support for Spring (that we will see in the next lessons). However, you can obtain a free Student License to use IntelliJ Ultimate (see <a target="_blank" rel="noopener noreferrer" href="https://www.jetbrains.com/community/education/#students">here</a>).
 
 ## Gradle in Action
 To see Gradle in action create a new Project with IntelliJ IDEA and choose Gradle as Build System. Set the other parameters as follows:
