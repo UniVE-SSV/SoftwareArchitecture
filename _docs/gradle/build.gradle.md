@@ -61,7 +61,7 @@ repositories {
     mavenCentral()
 }
 {% endhighlight %}
-There exist some repositories that host libraries for projects. In the <a target="_blank" rel="noopener noreferrer" href="https://docs.gradle.org/current/userguide/declaring_repositories.html">repositories</a> block, you can specify which repositorie<a target="_blank" rel="noopener noreferrer" href="t to use. In our example, we use <a href="https://repo.maven.apache.org/maven2/">Maven Central</a>, but we can have more than one repository. Let's see another example:
+There exist some repositories that host libraries for projects. In the <a target="_blank" rel="noopener noreferrer" href="https://docs.gradle.org/current/userguide/declaring_repositories.html">repositories</a> block, you can specify which repositorie<a target="_blank" rel="noopener noreferrer" href="t to use. In our example, we use <a target="_blank" rel="noopener noreferrer" href="https://repo.maven.apache.org/maven2/">Maven Central</a>, but we can have more than one repository. Let's see another example:
 {% highlight kotlin %}
 repositories {
     mavenCentral()
