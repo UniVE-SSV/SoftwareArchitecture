@@ -6,6 +6,7 @@ order: 1
 <h2>Contents</h2>
 * toc
 {:toc}
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/wAAJ8eS-CzA?si=oCBZVTMpJ9D7p-ZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ## The Spring framework
 <a target="_blank" rel="noopener noreferrer" href="https://spring.io/">Spring</a> is a free and open-source Java framework for building Java applications. It is mainly used for web-based apps. If you are not familiar with the concept of framework, it is important to define briefly what a framework is.
 
