@@ -5,6 +5,7 @@ order: 1
 <h2>Contents</h2>
 * toc
 {:toc}
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/3aCuXUzYrac?si=UX0Fq34XZaYoMBBl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 In our Students' Application, we implicitly made use of the HTTP protocol. In this section, we want to define what HTTP is, and how it works.  
 ## What is HTTP
 HTTP (HyperText Transfer Protocol) is the principal communication protocol for the web. We are using HTTP everywhere: when we search for something on Google when we watch a video on YouTube, and even when we send an email through a web client.  
