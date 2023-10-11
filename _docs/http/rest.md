@@ -195,11 +195,12 @@ Status 201 (Created) means that our POST request was successful. We can see the 
 So that's all. This is how you interact with an API that relies on the REST style. We use URLs to access particular resources and we use HTTP methods to manipulate them. The main idea is that every resource is unique and addressed by a link. 
 ## REST vs RPC: what's the difference?
 We conclude this section by talking a bit about the main difference between RPC and REST.  
-RPC stands for Remote Procedure Call and consists of executing some functions (procedures) in a different address space (for example, in another machine), without requiring a programmer to explicitly handle the interaction between systems. For example, in python:
-{% highlight python %}
-## SERVER
-import xmlrpc.server
+RPC stands for Remote Procedure Call and consists of executing some functions (procedures) in a different address space (for example, in another machine), without requiring a programmer to explicitly handle the interaction between systems. For example, in python:  
 
+
+{% highlight python %}
+# SERVER
+import xmlrpc.server
 class Server:
     def add(self, a, b):
         return a + b
@@ -208,9 +209,8 @@ server = xmlrpc.server.SimpleXMLRPCServer(("localhost", 8000))
 server.register_instance(Server())
 server.serve_forever()
 {% endhighlight %}
-
 {% highlight python %}
-## CLIENT
+# CLIENT
 import xmlrpc.client
 
 server = xmlrpc.client.ServerProxy("http://localhost:8000")
