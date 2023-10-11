@@ -1,5 +1,6 @@
 ---
 title: 2. HTTP REST
+category: 4. HTTP
 order: 2
 ---
 <h2>Contents</h2>
