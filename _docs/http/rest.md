@@ -56,7 +56,7 @@ Our request returns a 200 (OK) status code, and we have a JSON body plus some he
 ![HTTP rest]({{ site.baseurl }}/images/http_rest_2.png)
 As we can notice, the response consists of a set of URLs. These URLs are pointers to resources. Since we are curious, let's see what happens if we try to access the first resource (that is, using the intuitions, the resource that models our GitHub profile).  
 ![HTTP rest]({{ site.baseurl }}/images/http_rest_3.png)
-Oh, something is not working! We get an error 401 (Unauthorized). However, the call returns a body with some information about the error. To have a good API, the server should provide some useful information about the problem in order to help the client understand what happens and to direct him on how to behave.  401 means that we are not authorized. The documentation says that we can use a Bearer Access Token to have a grant. We can create one here: <a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a> (select repo, user, project scope: scope defines what you can do and what not with this token).  
+Oh, something is not working! We get an error 401 (Unauthorized). However, the call returns a body with some information about the error. To have a good API, the server should provide some useful information about the problem to help the client understand what happens and to direct him on how to behave.  401 means that we are not authorized. The documentation says that we can use a Bearer Access Token to have a grant. We can create one here: <a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a> (select repo, user, project scope: scope defines what you can do and what not with this token).  
 ![HTTP rest]({{ site.baseurl }}/images/http_rest_4.png)
 ![HTTP rest]({{ site.baseurl }}/images/http_rest_5.png)
 Now copy the Token, and paste it into a Header (Authorization: Bearer XXXXXXXXXXXX):
@@ -179,7 +179,7 @@ The Call goes in 200 (OK), but our response is an empty array: this means that t
     }
 ]
 {% endhighlight %}
-The returned JSON now contains our repository: look at the entry. You have a field "owner", that says who is the owner of the repository, with URLs that identify resources, and some information: for example, we can know that this repository is a private repository, and we have URLs that permit access to underlying resources such as merge requests, commits, etc.  
+The returned JSON now contains our repository: look at the entry. You have a field "owner", that says who is the owner of the repository, with URLs that identify resources, and some information: for example, we can know that this repository is private, and we have URLs that permit access to underlying resources such as merge requests, commits, etc.  
 Let's try to create an issue from the API. <a href="https://docs.github.com/en/rest/issues/issues#create-an-issue">Here</a>, we have all the necessary information about how to build a request to do this. We know that we need to perform a POST a body to **/repos/{owner}/{repo}/issues** where *owner* is the id of the owner of the repository and *repo* is the name of the repo (this is like to say: from user 'owner', get the repository named 'repo', and POST a new issue). Let's create a minimal body with only the required fields (change owner and repo with your data):
 {% highlight json %}
 {
@@ -192,7 +192,32 @@ Let's try to create an issue from the API. <a href="https://docs.github.com/en/r
 Status 201 (Created) means that our POST request was successful. We can see the created issue from GitHub:
 ![HTTP rest]({{ site.baseurl }}/images/http_rest_12.png)
 So that's all. This is how you interact with an API that relies on the REST style. We use URLs to access particular resources and we use HTTP methods to manipulate them. The main idea is that every resource is unique and addressed by a link. 
+## REST vs RPC: what's the difference?
+We conclude this section by talking a bit about the main difference between RPC and REST.  
+RPC stands for Remote Procedure Call and consists of executing some functions (procedures) in a different address space (for example, in another machine), without requiring a programmer to explicitly handle the interaction between systems. For example, in python:
+{% highlight python %}
+## SERVER
+import xmlrpc.server
 
+class Server:
+    def add(self, a, b):
+        return a + b
+
+server = xmlrpc.server.SimpleXMLRPCServer(("localhost", 8000))
+server.register_instance(Server())
+server.serve_forever()
+{% endhighlight %}
+
+{% highlight python %}
+## CLIENT
+import xmlrpc.client
+
+server = xmlrpc.client.ServerProxy("http://localhost:8000")
+result = server.add(2, 3)
+print(result)
+{% endhighlight %}
+Without going into too much detail, the client will call the add function on the server (like it is a "local" function) and print the result (the sum operation is executed on the server). 
+RPC and REST could seem very similar (for example, considering GitHub, one could use an API library <a href="https://github.com/PyGithub/PyGithub">this</a> that hides the REST architecture), but the main difference is that RPC exposes functions, while REST exposes resources and a way to manipulate them. RPC is used when you want to execute something on a server, and REST is typically used to perform CRUD (Create, Retrieve, Update, Delete) operations on remote data.
 ## Exercises
 1. Try a PATCH operation on your previously created issue, for example adding a description (body field) or editing the title. Try also to add a comment to the issue. Now, remove the comment.
 1. Write a script with your preferred language that, taking in input the owner and the name of a public repository, downloads the .zip of the latest tag.
