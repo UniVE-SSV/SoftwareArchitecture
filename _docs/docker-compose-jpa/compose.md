@@ -1,11 +1,12 @@
 ---
 title: 1. Docker Compose
+category: 5. Docker Compose & JPA
 order: 1
 ---
 <h2>Contents</h2>
 * toc
 {:toc}
-
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/px5BQ929p5s?si=z-yDjUwjZg1R-Fnj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ## What we have seen so far
 At this point, we know how to build a REST application and how to deploy it in a docker container. However, we don't have persistence: if we restart the application, all the inserted students will disappear.  
 As we said in the docker lessons, this is not good: we want now to provide a way to add a database in which we would store all the application data.  
@@ -97,3 +98,6 @@ And test (for example, adding a database and a table):
 ![HTTP intro]({{ site.baseurl }}/images/dcjpa_compose_4.png)
 ![HTTP intro]({{ site.baseurl }}/images/dcjpa_compose_5.png)
 Everything works! In the next section, we will see how to use Hibernate to connect our web application to the database.
+<div>
+Next: <a href="/SoftwareArchitecture/docker-compose-jpa/hibernate">Docker Compose &amp; JPA - Hibernate</a> 
+</div>
