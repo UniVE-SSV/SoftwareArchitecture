@@ -162,7 +162,7 @@ Probably you notice that when you launch the Consumer, *ALL* the messages in the
 channel.basicQos(5); // Max. five messages at once
 {% endhighlight %}
 ## Spring Example
-Now turn back on our Students App. Let's say that we want to integrate a service on your application and you want to use RabbitMQ. We need to send newly created Students to a service that does something (for our example, just logs).
+Now turn back on our Students App. Let's say that we want to integrate a service on your application and you want to use RabbitMQ. We need to send newly created Students to a service that does something (for example logs the students or whatewer you want).
 Spring provides a RabbitMQ Component integration:
 ### gradle dependencies
 Add **spring-boot-starter** to the dependencies of our Students App:
@@ -307,7 +307,7 @@ Launch the containers with docker-compose (remember to build the application and
 ![RabbitMQ examples8]({{ site.baseurl }}/images/rabbitmq_examples_8.png)
 ![RabbitMQ examples6]({{ site.baseurl }}/images/rabbitmq_examples_6.png)
 ## Exercises
-1. Write a consumer that processes queue **post-students**. You can use whatever language you want. Write a Docker image for this consumer application, and add it as a service to the Docker Compose. If you want to experiment with other languages rather than Java, you can use for example <a target="_blank" rel="noopener noreferrer" href="https://pika.readthedotarget="_blank" rel="noopener noreferrer" href="en/stable/">pika</a> fortarget="_blank" rel="noopener noreferrer" href="n, <a href="https://www.npmjs.com/package/amqplib">amqplib</a> for NodeJS, <a href="https://github.com/rabbitmq/amqp091-go">amqp091-go</a> for GoLang.
+1. Write a consumer that processes queue **post-students**. You can use whatever language you want. Write a Docker image for this consumer application, and add it as a service to the Docker Compose. If you want to experiment with other languages rather than Java, you can use for example <a target="_blank" rel="noopener noreferrer" href="https://pika.readthedocs.io/en/stable/">pika</a> for Python, <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/amqplib">amqplib</a> for NodeJS, <a target="_blank" rel="noopener noreferrer" href="https://github.com/rabbitmq/amqp091-go">amqp091-go</a> for GoLang.
 <div>
 Previous: <a href="/SoftwareArchitecture/rabbitmq/quick-start">RabbitMQ - Quick Start</a> 
 </div>
