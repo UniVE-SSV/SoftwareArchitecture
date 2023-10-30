@@ -14,7 +14,7 @@ Add the -d flag if you want to run the container in detached mode.
 We are binding two ports: one for the rabbitmq service (5672), and one for a web-ui (15672). In this section, we will play a bit only with the web-ui, to better understand how the system works.
 
 ## The RabbitMQ web-UI
-Open your browser at <a target="_blank" rel="noopener noreferrer" href="localhost:15672">localhost:15672"</a>. You should see something like this:
+Open your browser at <a target="_blank" rel="noopener noreferrer" href="localhost:15672">localhost:15672</a>. You should see something like this:
 ![RabbitMQ gettingstarted1]({{ site.baseurl }}/images/rabbitmq_gettingstarted_1.png)
 Insert **guest** as username and **guest** as password, and log in.
 ![RabbitMQ gettingstarted2]({{ site.baseurl }}/images/rabbitmq_gettingstarted_2.png)
