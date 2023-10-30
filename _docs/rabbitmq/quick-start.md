@@ -49,6 +49,10 @@ What happens if we publish a message with routing key **red**?
 Messages can be <a target="_blank" rel="noopener noreferrer" href="https://www.rabbitmq.com/confirms.html">acknowledged</a>. 
 ![RabbitMQ gettingstarted12]({{ site.baseurl }}/images/rabbitmq_gettingstarted_12.png)
 ACK is a mechanism to ensure that a message is successfully sent. Acknowledgment can be positive (ACK) or negative (NACK). Positive acknowledgments tell the RabbitMQ instance to consider the message as delivered, while a negative acknowledgment says that the message had some problems during consuming and requires specific action (for example, it can be requested or sent to a <a target="_blank" rel="noopener noreferrer" href="https://www.rabbitmq.com/dlx.html">Dead Letter Exchange</a>).
+
+<div>
+Next: <a href="/SoftwareArchitecture/rabbitmq/java-examples">RabbitMQ - Java Examples</a> 
+</div>
 <div>
 Previous: <a href="/SoftwareArchitecture/rabbitmq/introduction">RabbitMQ - Introduction</a> 
 </div>
