@@ -14,7 +14,7 @@ Add the -d flag if you want to run the container in detached mode.
 We are binding two ports: one for the rabbitmq service (5672), and one for a web-ui (15672). In this section, we will play a bit only with the web-ui, to better understand how the system works.
 
 ## The RabbitMQ web-UI
-Open your browser at <a target="_blank" rel="noopener noreferrer" localhost:15672">localhost:15672"</a>. You should see something like this:
+Open your browser at <a target="_blank" rel="noopener noreferrer" href=" localhost:15672">localhost:15672"</a>. You should see something like this:
 ![RabbitMQ gettingstarted1]({{ site.baseurl }}/images/rabbitmq_gettingstarted_1.png)
 Insert **guest** as username and **guest** as password, and log in.
 ![RabbitMQ gettingstarted2]({{ site.baseurl }}/images/rabbitmq_gettingstarted_2.png)
@@ -46,9 +46,9 @@ To see messages in a queue, go to the queue and click on **Get Message(s)**: on 
 What happens if we publish a message with routing key **red**? 
 ![RabbitMQ gettingstarted11]({{ site.baseurl }}/images/rabbitmq_gettingstarted_11.png)
 #### About ACK
-Messages can be <a target="_blank" rel="noopener noreferrer" https://www.rabbitmq.com/confirms.html">acknowledged</a>. 
+Messages can be <a target="_blank" rel="noopener noreferrer" href=" https://www.rabbitmq.com/confirms.html">acknowledged</a>. 
 ![RabbitMQ gettingstarted12]({{ site.baseurl }}/images/rabbitmq_gettingstarted_12.png)
-ACK is a mechanism to ensure that a message is successfully sent. Acknowledgment can be positive (ACK) or negative (NACK). Positive acknowledgments tell the RabbitMQ instance to consider the message as delivered, while a negative acknowledgment says that the message had some problems during consuming and requires specific action (for example, it can be requested or sent to a <a target="_blank" rel="noopener noreferrer" https://www.rabbitmq.com/dlx.html">Dead Letter Exchange</a>).
+ACK is a mechanism to ensure that a message is successfully sent. Acknowledgment can be positive (ACK) or negative (NACK). Positive acknowledgments tell the RabbitMQ instance to consider the message as delivered, while a negative acknowledgment says that the message had some problems during consuming and requires specific action (for example, it can be requested or sent to a <a target="_blank" rel="noopener noreferrer" href=" https://www.rabbitmq.com/dlx.html">Dead Letter Exchange</a>).
 <div>
 Previous: <a href="/SoftwareArchitecture/rabbitmq/introduction">RabbitMQ - Introduction</a> 
 </div>

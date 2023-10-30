@@ -8,7 +8,7 @@ order: 1
 {:toc}
 
 ## What is RabbitMQ
-<a target="_blank" rel="noopener noreferrer" https://www.rabbitmq.com">RabbitMQ</a> is an open-source message-broker software that implements various message-passing protocols such as Advance Message Queuing Protocol (AMQP), Streaming Text Oriented Messaging Protocol (STOMP), MQ Telemetry Transport (MQTT). It is one of the most popular open-source message brokers.  
+<a target="_blank" rel="noopener noreferrer" href=" https://www.rabbitmq.com">RabbitMQ</a> is an open-source message-broker software that implements various message-passing protocols such as Advance Message Queuing Protocol (AMQP), Streaming Text Oriented Messaging Protocol (STOMP), MQ Telemetry Transport (MQTT). It is one of the most popular open-source message brokers.  
 
 ### The AMQP Protocol
 AMQP is an open standard protocol for message-oriented middleware.  
@@ -40,7 +40,7 @@ Generally, exchanges have some attributes:
 - **Auto delete**: tells if the exchange needs to be deleted when the last queue is unbounded from it, or not.
 - **Arguments**: an optional attribute that permits the definition of custom attributes for a plugin.
 
-More details <a target="_blank" rel="noopener noreferrer" https://www.rabbitmq.com/tutorials/amqp-concepts.html">here</a>.
+More details <a target="_blank" rel="noopener noreferrer" href=" https://www.rabbitmq.com/tutorials/amqp-concepts.html">here</a>.
 ## Queues
 In RabbitMQ, a queue is an ordered collection of messages. Messages are enqueued and dequeued in a FIFO (First In, First Out) manner. However, the ordering of messages can be affected by message priorities or requeueing. Queues, like exchanges, have attributes:
 - **Name**
@@ -48,7 +48,7 @@ In RabbitMQ, a queue is an ordered collection of messages. Messages are enqueued
 - **Exclusive**: tells if the queue can be used just by only one connection (the queue will be removed when that connection closes).
 - **Auto delete**: queue that has had at least one consumer is deleted when the last consumer unsubscribes.
 - **Arguments**: like exchange.
-Other information about queues can be found <a target="_blank" rel="noopener noreferrer" https://www.rabbitmq.com/queues.html">here</a>.  
+Other information about queues can be found <a target="_blank" rel="noopener noreferrer" href=" https://www.rabbitmq.com/queues.html">here</a>.  
 
 In the next section, we will start a "dockerized" instance of RabbitMQ to see how it works.
 <div>
