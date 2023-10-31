@@ -6,7 +6,7 @@ order: 1
 <h2>Contents</h2>
 * toc
 {:toc}
-
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/TgBm_bdzGg8?si=O4EP-CMjjiuiaPHH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ## What is RabbitMQ
 <a target="_blank" rel="noopener noreferrer" href="https://www.rabbitmq.com">RabbitMQ</a> is an open-source message-broker software that implements various message-passing protocols such as Advance Message Queuing Protocol (AMQP), Streaming Text Oriented Messaging Protocol (STOMP), MQ Telemetry Transport (MQTT). It is one of the most popular open-source message brokers.  
 
