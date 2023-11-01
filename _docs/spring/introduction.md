@@ -3,6 +3,7 @@ title: 1. Introduction
 category: 3. Java Spring
 order: 1
 ---
+![Spring logo]({{ site.baseurl }}/images/spring_logo.png)
 <h2>Contents</h2>
 * toc
 {:toc}

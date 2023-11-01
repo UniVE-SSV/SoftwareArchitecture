@@ -3,6 +3,7 @@ title: 1. Docker Compose
 category: 5. Docker Compose & JPA
 order: 1
 ---
+![Compose logo]({{ site.baseurl }}/images/compose_logo.webp)
 <h2>Contents</h2>
 * toc
 {:toc}

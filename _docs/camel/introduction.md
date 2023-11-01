@@ -3,6 +3,7 @@ title: 1. Introduction
 category: 6. Camel
 order: 1
 ---
+![Camel logo]({{ site.baseurl }}/images/camel_logo.png)
 <h2>Contents</h2>
 * toc
 {:toc}

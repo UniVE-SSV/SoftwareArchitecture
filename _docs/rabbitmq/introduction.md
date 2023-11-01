@@ -3,6 +3,7 @@ title: 1. Introduction
 category: 7. RabbitMQ
 order: 1
 ---
+![RabbitMQ logo]({{ site.baseurl }}/images/rabbitmq_logo.png)
 <h2>Contents</h2>
 * toc
 {:toc}

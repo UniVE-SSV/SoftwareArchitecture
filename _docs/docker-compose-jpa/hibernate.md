@@ -3,6 +3,7 @@ title: 2. JPA (Hibernate)
 category: 5. Docker Compose & JPA
 order: 2
 ---
+![Hibernate logo]({{ site.baseurl }}/images/hibernate_logo.png)
 <h2>Contents</h2>
 * toc
 {:toc}

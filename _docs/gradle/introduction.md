@@ -3,6 +3,7 @@ title: 1. Introduction
 category: 2. Gradle
 order: 1
 ---
+![Gradle logo]({{ site.baseurl }}/images/gradle_logo.png)
 <h2>Contents</h2>
 * toc
 {:toc}

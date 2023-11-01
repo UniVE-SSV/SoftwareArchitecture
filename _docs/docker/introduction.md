@@ -3,6 +3,7 @@ title: 1. Introduction
 category: 1. Docker
 order: 1
 ---
+![Docker logo]({{ site.baseurl }}/images/docker_logo.jpeg)
 <h2>Contents</h2>
 * toc
 {:toc}
