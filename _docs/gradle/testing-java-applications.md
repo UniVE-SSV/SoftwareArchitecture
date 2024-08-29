@@ -1,6 +1,6 @@
 ---
 title: 3. Testing Java Applications
-category: 2. Gradle
+category: 02. Gradle
 order: 3
 ---
 <h2>Contents</h2>

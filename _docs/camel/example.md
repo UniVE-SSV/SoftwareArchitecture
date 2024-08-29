@@ -1,6 +1,6 @@
 ---
 title: 2. Example
-category: 6. Camel
+category: 06. Camel
 order: 2
 ---
 <h2>Contents</h2>

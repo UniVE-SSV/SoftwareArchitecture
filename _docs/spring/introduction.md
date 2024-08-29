@@ -1,6 +1,6 @@
 ---
 title: 1. Introduction
-category: 3. Java Spring
+category: 03. Java Spring
 order: 1
 ---
 ![Spring logo]({{ site.baseurl }}/images/spring_logo.png)

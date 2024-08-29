@@ -1,6 +1,6 @@
 ---
 title: 2. JPA (Hibernate)
-category: 5. Docker Compose & JPA
+category: 05. Docker Compose & JPA
 order: 2
 ---
 ![Hibernate logo]({{ site.baseurl }}/images/hibernate_logo.png)

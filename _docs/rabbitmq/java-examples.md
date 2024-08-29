@@ -1,6 +1,6 @@
 ---
 title: 3. Java examples
-category: 7. RabbitMQ
+category: 07. RabbitMQ
 order: 3
 ---
 <h2>Contents</h2>

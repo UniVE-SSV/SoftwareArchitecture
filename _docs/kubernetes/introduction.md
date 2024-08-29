@@ -1,6 +1,6 @@
 ---
 title: 1. Introduction
-category: 8. Kubernetes
+category: 08. Kubernetes
 order: 1
 ---
 
