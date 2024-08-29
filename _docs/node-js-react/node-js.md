@@ -103,4 +103,18 @@ Server running at http://127.0.0.1:3000/
 {% endhighlight %}
 ![NodeJS intro 1]({{ site.baseurl }}/images/nodejs_intro_1.png)
 ### Install a node package
-To install a node package, we use npm. For example, consider to use 
+To install a node package, we use npm. Since we want to call our REST API, we install Axios. Axios is an HTTP client API library that easily the craft of http calling.
+{% highlight bash %}
+➜  nodejs-proj npm install axios
+{% endhighlight %}
+After executing this command, you should see a change in the package.json and a new node-modules folder.
+More specific, the node-modules folder contains all the external dependencies of your application. In the package.json, we can see that a dependency entry appear. **packages** specifies the external packages (or modules) that a Node.js project requires to function properly. 
+{% highlight json %}
+  "dependencies": {
+    "axios": "^1.7.5"
+  }
+{% endhighlight %}
+When you clone a Node.js project repository from a version control system like Git, you typically need to install all the dependencies required for the project to run properly. You can do it by launching the command:
+{% highlight bash %}
+npm install
+{% endhighlight %}
