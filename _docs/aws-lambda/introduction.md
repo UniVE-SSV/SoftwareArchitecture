@@ -1,6 +1,6 @@
 ---
 title: 1. Introduction
-category: 9. AWS Lambda
+category: 09. AWS Lambda
 order: 1
 ---
 ![AWS Lambda logo]({{ site.baseurl }}/images/awslambda_logo.png)
