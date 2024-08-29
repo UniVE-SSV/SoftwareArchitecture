@@ -1,6 +1,6 @@
 ---
 title: 3. Example of a Spring Application
-category: 3. Java Spring
+category: 03. Java Spring
 order: 3
 ---
 <h2>Contents</h2>

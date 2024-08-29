@@ -1,6 +1,6 @@
 ---
 title: 2. Quick Start
-category: 7. RabbitMQ
+category: 07. RabbitMQ
 order: 2
 ---
 <h2>Contents</h2>

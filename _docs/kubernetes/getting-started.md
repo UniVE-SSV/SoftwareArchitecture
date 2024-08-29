@@ -1,6 +1,6 @@
 ---
 title: 2. Getting Started
-category: 8. Kubernetes
+category: 08. Kubernetes
 order: 2
 ---
 

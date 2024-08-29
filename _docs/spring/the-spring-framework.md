@@ -1,6 +1,6 @@
 ---
 title: 2. The Spring Framework
-category: 3. Java Spring
+category: 03. Java Spring
 order: 2
 ---
 <h2>Contents</h2>

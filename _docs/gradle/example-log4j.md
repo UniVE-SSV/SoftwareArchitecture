@@ -1,6 +1,6 @@
 ---
 title: 4. Example - log4j
-category: 2. Gradle
+category: 02. Gradle
 order: 4
 ---
 <h2>Contents</h2>

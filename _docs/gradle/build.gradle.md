@@ -1,6 +1,6 @@
 ---
 title: 2. build.gradle 
-category: 2. Gradle
+category: 02. Gradle
 order: 2
 ---
 <h2>Contents</h2>

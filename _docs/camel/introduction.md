@@ -1,6 +1,6 @@
 ---
 title: 1. Introduction
-category: 6. Camel
+category: 06. Camel
 order: 1
 ---
 ![Camel logo]({{ site.baseurl }}/images/camel_logo.png)

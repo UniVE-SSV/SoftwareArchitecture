@@ -1,6 +1,6 @@
 ---
 title: 1. Introduction
-category: 7. RabbitMQ
+category: 07. RabbitMQ
 order: 1
 ---
 ![RabbitMQ logo]({{ site.baseurl }}/images/rabbitmq_logo.png)

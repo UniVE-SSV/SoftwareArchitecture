@@ -1,6 +1,6 @@
 ---
 title: 4. Spring + Gradle + Docker
-category: 3. Java Spring
+category: 03. Java Spring
 order: 4
 ---
 <h2>Contents</h2>
